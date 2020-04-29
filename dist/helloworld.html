@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <button id="btnRed">Red</button>
+            <button id="btnBlue">Blue</button>
+            <button id="btnGreen">Green</button>
+        </div>
+        <h1>Hello World!</h1>
+    </div>
+    <script>var btnRed = document.querySelector('#btnRed');
+var btnBlue = document.querySelector('#btnBlue');
+var btnGreen = document.querySelector('#btnGreen');
+var content = document.querySelector('h1');
+btnRed.addEventListener('click', function () {
+  return content.style.color = 'red';
+});
+btnBlue.addEventListener('click', function () {
+  return content.style.color = 'blue';
+});
+btnGreen.addEventListener('click', function () {
+  return content.style.color = 'green';
+});</script>
+</body>
+</html>
