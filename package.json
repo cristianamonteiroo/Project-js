@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/cristianamonteiroo/Project-js#readme",
   "devDependencies": {
-    "parcel": "^1.12.4"
+    "parcel": "^2.8.2"
   }
 }
